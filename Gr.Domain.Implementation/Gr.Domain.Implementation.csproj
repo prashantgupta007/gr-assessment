@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.extensions.dependencyinjection" Version="3.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.13" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="YamlDotNet" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gr.Data.Entities\Gr.Data.Entities.csproj" />
+    <ProjectReference Include="..\Gr.Data\Gr.Data.csproj" />
+    <ProjectReference Include="..\Gr.Domain\Gr.Domain.csproj" />
+    <ProjectReference Include="..\Gr.Exceptions\Gr.Exceptions.csproj" />
+    <ProjectReference Include="..\Gr.Model\Gr.Model.csproj" />
+  </ItemGroup>
+
+</Project>
