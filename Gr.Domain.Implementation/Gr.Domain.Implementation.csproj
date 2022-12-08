@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="microsoft.extensions.dependencyinjection" Version="3.1.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.13" />
     <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
     <PackageReference Include="YamlDotNet" Version="8.1.0" />
